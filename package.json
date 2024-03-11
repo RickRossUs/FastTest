@@ -1,0 +1,46 @@
+{
+  "name": "fasttest2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "axios": "^1.6.7",
+    "core-js": "^3.36.0",
+    "happy-dom": "^13.7.3",
+    "jsdom": "^24.0.0",
+    "pinia": "^2.1.7",
+    "roboto-fontface": "^0.10.0",
+    "vee-validate": "^4.12.6",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vuetify": "^3.5.8",
+    "whatwg-fetch": "^3.6.20"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.24.0",
+    "@testing-library/vue": "^8.0.2",
+    "@types/node": "^20.11.25",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitest/coverage-v8": "^1.3.1",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/test-utils": "^2.4.4",
+    "axios-mock-adapter": "^1.22.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.22.0",
+    "msw": "^2.2.3",
+    "resize-observer-polyfill": "^1.5.1",
+    "sass": "^1.71.1",
+    "typescript": "^5.4.2",
+    "unplugin-fonts": "^1.1.1",
+    "vite": "^5.1.6",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vitest": "^1.3.1",
+    "vue-tsc": "^1.8.27"
+  }
+}
